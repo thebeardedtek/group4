@@ -1,0 +1,210 @@
+﻿body {
+    margin: 0;
+    background-color:black
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: no-content;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: absolute fixed;
+    z-index: 9999;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+            color:mediumpurple
+        }
+li {
+    border-right: 1px solid ;
+    border-color:mediumpurple
+}
+    li:last-child {
+        border-right: none;
+    }
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+.owners{
+    width:300px;
+    height:400px;
+}
+
+#locaton {
+    transition-duration: 3s;
+    border: solid;
+    border-color: mediumpurple;
+}
+.logo{
+    background-position:center right;
+    width:100%;
+    height:100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+#lazpic{
+
+}
+
+
+.bio pics {
+    width: 500px;
+    height: 550px;
+}
+#lazpic {
+    width: 400px;
+    height: 450px;
+    padding-right:5px;
+    padding-bottom:7px;
+}
+#chepic {
+    width: 400px;
+    height: 450px;
+    
+}
+#marpic {
+    width: 400px;
+    height: 450px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+}
+#jafpic {
+    width: 400px;
+    height: 450px;
+    padding-right: 5px;
+    
+}
+#bio32{
+    color:green;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+    background-color: #333
+}
+input[type=number], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+    background-color: #333
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%
+}
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+footer {
+    display: block;
+}
+.vid{
+    position:center;
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.grp{
+    width:450px;
+    height:250px;
+}
+
+/* MENU  SHOPPING CART */
+#menu-cart{position: absolute; left:0px; top: 53px; background: #f4f4f4; padding: 3%; min-width: 500px; max-width: 550px; display: none;}
+.cart-img{display: flex; align-content: flex-start; align-items: flex-start; margin-bottom: 25px;}
+.cart-img img{max-height: 85px; width: auto; padding-right:20px; }
+.cart-excerpt{text-align: left; padding-bottom: 10px;}
+.cart-excerpt.truncate ::after{content:"....."}
+.cart-quantity{margin-right: 10px;}
+.cart-price{padding-right: 10px;}
+.cart-actions{text-align: right;}
+#cart-output{padding: 5%;}
+#cart-total{background-color: rgba(41,136,175,1); padding: 3%; color: #FFF;}
+.cart-total-quantity{margin-right: 10px;}
+.shopping-cart{background-color:#f4f4f4; color: #2988af; position: relative;}
+.shopping-cart a, .shopping-cart a i{color:#2988af;}
+.shopping-cart:hover a, .shopping-cart:hover a i{color:#FFF;}
+
+/* CHAT */
+#chat{position: fixed; bottom: 70px; right: 50px; z-index: 999;}
+#chat i{color:#FFF; background-color: #057df1; padding: 20px; border-radius: 50%; font-size: 1.8em; box-shadow: 6px 6px 10px rgba(51,51,51,.6);}
+#chat i:hover{background-color: #11b648; transition: background-color 500ms; cursor: pointer;} 
+.chat-box{position: fixed; min-width: 420px; max-width: 500px; height: auto; bottom: 70px; right:125px; background-color: #F4F4F4; z-index: 999; border-radius: 10px; padding: 2%; border: 5px solid #1b5871}
+.chat-convo span{display: block; margin-bottom: 15px;}
+.chat-convo span:last-of-type{margin-bottom: 0px;}
+.chat-box-title{font-size: 1.5em; color:gray; text-align: center; margin-bottom: 25px;}
+.chat-convo span{padding: 1%;}
+.chat-convo span:nth-child(odd){background-color: #fff;}
+.message-input{margin-top: 15px;}
+.message-send{text-align: center; margin-top: 15px;}
+.chat-active{background-color: #11b648 !important; color: #FFF !important;}
+#chat-box{display:none;}
+.add-to-cart-green{border:none;}
